@@ -1,6 +1,6 @@
 # impala-levenshtein
 
-Read
+Read:
 - https://blog.cloudera.com/blog/2014/01/how-to-get-started-writing-impala-udfs/
 - https://impala.apache.org/docs/build/html/topics/impala_udf.html#udf_demo_env
 

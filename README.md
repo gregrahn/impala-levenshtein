@@ -11,7 +11,7 @@ $ rpm -qa| grep impala-udf-devel
 impala-udf-devel-3.1.0+cdh6.1.1-875250.el7.x86_64
 ```
 
-Install if not find the right rpm (example for C5.16 on RedHat 6) and install like such:
+Install if not. Find the right rpm (example for C5.16 on RedHat 6) and install like such:
 
 ```
 sudo yum install http://archive.cloudera.com/cdh5/redhat/6/x86_64/cdh/5.15.0/RPMS/x86_64/impala-udf-devel-2.12.0+cdh5.15.0+0-1.cdh5.15.0.p0.52.el6.x86_64.rpm

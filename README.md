@@ -1,5 +1,7 @@
 # impala-levenshtein
 
+Stand-alone version of Impala `levenshtein()` function per [IMPALA-7759](https://issues.apache.org/jira/browse/IMPALA-7759)
+
 Read:
 - https://blog.cloudera.com/blog/2014/01/how-to-get-started-writing-impala-udfs/
 - https://impala.apache.org/docs/build/html/topics/impala_udf.html#udf_demo_env
@@ -7,7 +9,7 @@ Read:
 Verify Impala UDF SDK is installed:
 
 ```
-$ rpm -qa| grep impala-udf-devel
+$ rpm -qa | grep impala-udf-devel
 impala-udf-devel-3.1.0+cdh6.1.1-875250.el7.x86_64
 ```
 

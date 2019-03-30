@@ -19,7 +19,7 @@ set(EXECUTABLE_OUTPUT_PATH "build")
 
 find_program(CLANG_EXECUTABLE clang++)
 
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -ggdb -std=c++11")
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -ggdb -O3 -std=c++11")
 
 include_directories("include")
 
